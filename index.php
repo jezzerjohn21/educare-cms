@@ -199,7 +199,7 @@
                             <div class="inner text-center">
                                 <h4>Thrive academically</h4>
                                 <h1>HIGHLY-QUALIFIED TEACHERS</h1>
-                                <div class="text">To help students reach their full potential</div>
+                                <div class="text">To help students reach their full potential.</div>
                                 <div class="link-box">
                                     <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>More Details </span></a>
                                 </div>
