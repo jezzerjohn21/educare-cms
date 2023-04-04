@@ -100,7 +100,7 @@
     </div>
 
     <!-- Page Title -->
-    <section class="page-title" style="background-image: url(assets/images/background/bg-20.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/background/edubg.jpg);">
         <!--<div class="background-text">
             <div data-parallax='{"x": 100}'>
                 <div class="text-1">transida</div>
@@ -111,7 +111,7 @@
             <div class="content-box">
                 <div class="content-wrapper">
                     <div class="title">
-                        <h1>About Company</h1>
+                        <h1>Educare SchoolHouse</h1>
                     </div>
                    <!--<ul class="bread-crumb style-two">
                         <li class="active"><a href="about.php">About Company <i class="flaticon-up-arrow"></i></a></li>
@@ -132,20 +132,20 @@
                     <div class="col-lg-4">
                         <div class="sec-title mb-30">
                             <div class="sub-title">Company</div>
-                            <h2>Provide a <br> Reliable Services <br> Since 1998</h2>
+                            <h2>Education provider<br> Since 2010.</h2>
                         </div>
                         <div class="experience-year">
-                            <div class="icon"><i class="flaticon-package-1"></i></div>
+                            <!-- <div class="icon"><i class="flaticon-package-1"></i></div> -->
                             <div class="content">
-                                <h3>22 <span>+ Years</span></h3>
-                                <h5>Experience In Logistics</h5>
+                                <h3>10 <span>+ Years</span></h3>
+                                <h5>lorem ipsum</h5>
                             </div>
                             
                         </div>
                         
                     </div>
                     <div class="col-lg-8">
-                        <div class="image mb-30"><img src="assets/images/resource/image-34.jpg" alt=""></div>
+                        <div class="image mb-30"><img src="assets/images/resource/edu2.jpg" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -153,21 +153,22 @@
         <div class="overview">
             <div class="auto-container">
                 <div class="wrapper-box">
-                    <h2>Global Digital System Corporation has been operating in the USA now, for over 22 years and are part <br>  of a reliable, global integrated network.</h2>
+                    <h2>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</h2>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="text">
-                                <p>We Offer Import & Export assistance foreign businesses in transporting and selling their products in China, India and USA. We connect domestic companies to the international shipping services most suited for their business..</p>
-                                <p>Global Digital System Corporation has been the premiere agency to assist corporations with their global sales, resource, logistic, and import & export needs. Alongside our highly qualified workforce, we believe our track record and amassed relationships not only from our current clientele base, a growing network of over 3000 members, but also our experience as owned by the China, India and USA could be beneficial to any business with interest to expand.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                             </div>
                             <div class="author-info wow fadeInUp" data-wow-duration="1500ms">
-                                <!--<div class="video-btn">
+                                <!-- <div class="video-btn">
                                     <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="overlay-link lightbox-image video-fancybox"><i class="flaticon-play-arrow"></i></a>
-                                </div>-->
-                                <div class="signature"><img src="assets/images/sign.PNG" alt=""></div>
+                                </div> -->
+                                <!-- <div class="signature"><img src="assets/images/sign.PNG" alt=""></div> -->
                                 <div>
-                                    <div class="author-title">Abhishek Jain </div>
-                                    <div class="designation">CEO & Founder of Global Digital System Corporation </div>
+                                    <div class="author-title">John doe</div>
+                                    <div class="designation">Educare Schoolhouse Founder</div>
                                 </div>
                             </div>
                         </div>
@@ -178,55 +179,61 @@
                                     <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                         <div class="content">
                                             <div class="count-outer count-box">
-                                                <span class="count-text" data-speed="3000" data-stop="6.5">0</span><span>k</span>
+                                                <span class="count-text" data-speed="3000" data-stop="400">0</span><span></span>
                                             </div>
-                                            <h4>Parcel <br> Delivered</h4>
+                                            <h4>lorem <br> ipsum</h4>
                                             <h5>Total</h5>
                                         </div>
                                     </div>
                                 </div>
-                                <!--Column-->
-                                <div class="column counter-column col-md-3">
+
+                                     <!--Column-->
+                                     <div class="column counter-column col-md-3">
                                     <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                         <div class="content">
                                             <div class="count-outer count-box">
-                                                <span class="count-text" data-speed="3000" data-stop="3.4">0</span><span>k</span>
+                                                <span class="count-text" data-speed="3000" data-stop="400">0</span><span></span>
                                             </div>
-                                            <h5>Air</h5>
-                                            <div class="icon"><span class="flaticon-airplane"></span></div>
+                                            <h4>lorem <br> ipsum</h4>
+                                            <h5>Total</h5>
                                         </div>
                                     </div>
                                 </div>
-                                <!--Column-->
-                                <div class="column counter-column col-md-3">
-                                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                        <div class="content">
-                                            <div class="icon"><span class="flaticon-cargo-ship-1"></span></div>
-                                            <div class="count-outer count-box">
-                                                <span class="count-text" data-speed="3000" data-stop="1.7">0</span><span>k</span>
-                                            </div>
-                                            <h5>Ocean</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Column-->
-                                <div class="column counter-column col-md-3">
+
+                                     <!--Column-->
+                                     <div class="column counter-column col-md-3">
                                     <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                         <div class="content">
                                             <div class="count-outer count-box">
-                                                <span class="count-text" data-speed="3000" data-stop="1.4">0</span><span>k</span>
+                                                <span class="count-text" data-speed="3000" data-stop="400">0</span><span></span>
                                             </div>
-                                            <h5>Road</h5>
-                                            <div class="icon"><span class="flaticon-box-1"></span></div>
+                                            <h4>lorem <br> ipsum</h4>
+                                            <h5>Total</h5>
                                         </div>
                                     </div>
                                 </div>
+
+                                     <!--Column-->
+                                     <div class="column counter-column col-md-3">
+                                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div class="content">
+                                            <div class="count-outer count-box">
+                                                <span class="count-text" data-speed="3000" data-stop="400">0</span><span></span>
+                                            </div>
+                                            <h4>lorem <br> ipsum</h4>
+                                            <h5>Total</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                          
+                              
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </section>
 
      <!-- Whychooseus section four -->
@@ -279,11 +286,11 @@
         <div class="auto-container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="image"><img src="assets/images/resource/image-35.jpg" alt=""></div>
+                    <div class="image"><img src="assets/images/resource/edu4.jpg" alt=""></div>
                 </div>
                 <div class="col-lg-6">
                     <div class="content">  
-                        <div class="badge"><img src="assets/images/resource/badge-3.png" alt=""></div>
+                        <div class="badge"><img src="assets/images/resource/edu3.png" alt=""></div>
                         <!-- Tab panes -->
                         <div class="tab-content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                             <div class="tab-pane fadeInUp animated active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
@@ -293,9 +300,9 @@
                                         <h2>Mission Statement</h2>
                                     </div>
                                     <div class="text"><ul>
-                                        <li>To equip our people to be globally competitive.</li>
-                                        <li>To continually improve our business processes.</li>
-                                        <li>To contribute to the growth of society as we grow the company’s business.</li>
+                                        <li>lorem ipsum.</li>
+                                        <li>lorem ipsum.</li>
+                                        <li>lorem ipsum.</li>
                                     </ul></div>
                                 </div>
                             </div>
@@ -305,7 +312,7 @@
                                         <div class="sub-title">Statements</div>
                                         <h2>Vision Statement</h2>
                                     </div>
-                                    <div class="text">To be globally-recognized Logistic company that leads by global export & import sector and providing a harmonious and motivating workplace that will attract, develop, and keep the right people.</div>
+                                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
                                 </div>
                             </div>
                             <div class="tab-pane fadeInUp animated" id="tab-three" role="tabpanel" aria-labelledby="tab-three">
@@ -314,7 +321,7 @@
                                         <div class="sub-title">Statements</div>
                                         <h2>Company Value</h2>
                                     </div>
-                                    <div class="text">Dedicated to understanding customer expectations, identifying & developing opportunities that enhance customer supply chain strategies. Our operating philosophy is founded on maintaining the highest level of quality service.</div>
+                                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
                                 </div>
                             </div>
                         </div>
