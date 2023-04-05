@@ -97,7 +97,7 @@
                     <div class="inner-container">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="assets/images/educare.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/educare.png" alt=""></a></div>
                         </div>
                         <div class="right-column">
                             <!--Nav Box-->
