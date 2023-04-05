@@ -45,7 +45,6 @@
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 
-<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=601e75803d01430011c105c8&product=image-share-buttons' async='async'></script>
 
 </head>
 
@@ -89,7 +88,7 @@
                     </div>                            
                 </div>
                 <!-- Contact Widget -->
-                <div class="contact-widget">
+                <!-- <div class="contact-widget">
                     <div class="icon-box">
                         <div class="icon"><span class="flaticon-cursor"></span></div>
                         <div class="text">Boat House, 152/21 City Road, <br> Hoxton, N1 6NG, UK.</div>
@@ -102,7 +101,7 @@
                         <div class="icon"><span class="flaticon-mail"></span></div>
                         <div class="text"><strong>Email</strong><a href="tel:(+61)32456789790">supportyou@transida.com</a></div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Link Btn -->
                 <div class="link-btn"><a href="#" class="theme-btn btn-style-one style-two"><span><i class="flaticon-up-arrow"></i>Purchase Our Theme </span></a></div>
             </div>
@@ -110,7 +109,7 @@
     </section>
     
     <!--Search Popup-->
-    <div id="search-popup" class="search-popup">
+    <!-- <div id="search-popup" class="search-popup">
         <div class="close-search theme-btn"><span class="flaticon-remove"></span></div>
         <div class="popup-inner">
             <div class="overlay-layer"></div>
@@ -125,7 +124,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Bnner Section -->
     <section class="banner-section">
@@ -170,10 +169,7 @@
             </div>
         </div>-->
         <div class="background-text">
-            <div data-parallax='{"x": 100}'>
-                <div class="text-1">transida</div>
-                <div class="text-2">transida</div>
-            </div>                
+                         
         </div>
         <div class="swiper-container banner-slider">
             <div class="swiper-wrapper">
@@ -266,7 +262,7 @@
                    
                     <div class="card-deck">
                         <div class="card">
-                            <img class="card-img-top" style="height:270px;" src="admin/images/services/<?php echo $row['img']; ?>" alt="Card image cap">
+                            <img class="card-img-top" style="height:250px;" src="admin/images/services/<?php echo $row['img']; ?>" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title"><b><a href="single-service.php?id=<?php echo $row['id']; ?>"><?php echo $row['title']; ?></a></b></h5>
                               <p class="card-text"><?php echo $row['short']; ?></p>
@@ -287,7 +283,7 @@
 
 
     <!-- About Section -->
-    <section class="about-section" style="background-image: url(assets/images/background/bg-1.jpg);">
+    <section class="about-section" style="background-image: url(assets/images/background/edubg2.jpg);">
         <div class="auto-container">
             <div class="row">
                 <div class="col-lg-6">
@@ -393,58 +389,58 @@
     <section class="pricing-section">
         <div class="auto-container">
             <div class="sec-title text-center">
-                <div class="sub-title text-center">Pricing & Plans</div>
-                <h2>Our Effective and Affordable <br> Pricing Plans</h2>
+                <div class="sub-title text-center">Monthly rate</div>
+                <h2>loren ipsum <br>loren ipsum</h2>
             </div>
             <div class="row m-0">
                 <div class="col-lg-4 col-md-6 pricing-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
-                        <div class="category-wrapper"><div class="category">Basic Plan</div></div>
-                        <div class="price">$89.99</div>
+                        <div class="category-wrapper"><div class="category">KinderGarten</div></div>
+                        <div class="price">₱1700.00</div>
                         <div class="time">Per Month</div>
                         <ul class="content">
-                            <li>1 Warehouse </li>
-                            <li>Custom Business Rules</li>
-                            <li>Real Time Rate Shopping</li>
-                            <li>100% Insurance</li>
-                            <li>50 Freight Shipments</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
                         </ul>
                         <div class="link-box">
-                            <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Buy Now </span></a>
+                            <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Enroll now</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pricing-block style-two">
-                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" style="background-image: url(assets/images/resource/image-3.jpg);">
-                        <div class="category-wrapper"><div class="category">Standard Plan</div></div>
-                        <div class="price">$129.99</div>
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" style="background-image: url(assets/images/resource/edu5.jpg);">
+                        <div class="category-wrapper"><div class="category">Elementary</div></div>
+                        <div class="price">₱2700.00</div>
                         <div class="time">Per Month</div>
                         <ul class="content">
-                            <li>1 Warehouse </li>
-                            <li>Custom Business Rules</li>
-                            <li>Real Time Rate Shopping</li>
-                            <li>100% Insurance</li>
-                            <li>50 Freight Shipments</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
                         </ul>
                         <div class="link-box">
-                            <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Buy Now </span></a>
+                            <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Enroll Now</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pricing-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
-                        <div class="category-wrapper"><div class="category">Advanced Plan</div></div>
-                        <div class="price">$149.99</div>
-                        <div class="time">Per Month</div>
+                        <div class="category-wrapper"><div class="category">English Tutorial</div></div>
+                        <div class="price">₱500.00</div>
+                        <div class="time">Per Session</div>
                         <ul class="content">
-                            <li>1 Warehouse </li>
-                            <li>Custom Business Rules</li>
-                            <li>Real Time Rate Shopping</li>
-                            <li>100% Insurance</li>
-                            <li>50 Freight Shipments</li>
+                        <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
+                            <li>loren ipsum</li>
                         </ul>
                         <div class="link-box">
-                            <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Buy Now </span></a>
+                            <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Enroll Now</span></a>
                         </div>
                     </div>
                 </div>
