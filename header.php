@@ -24,17 +24,7 @@
                         
                     </div>
                     <div class="right-column">
-                        <div class="location">
-                                <!-- <span class="flaticon-cursor"></span>
-                                <form action="#" class="location-switcher">
-                                    <select class="selectpicker">
-                                        <option value="1">USA</option>
-                                        <option value="2">India</option>
-                                        <option value="3">China</option>
-                                        
-                                    </select>
-                                </form> -->
-                        </div>
+                      
                         <div class="phone-number"><i class="flaticon-calling"></i><a href="tel:<?php  echo $setting['phone']; ?>"></a><?php  echo $setting['phone']; ?></div>
                     </div>
                 </div>
@@ -130,7 +120,7 @@
             <div class="close-btn"><span class="icon flaticon-remove"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.php"><img src="assets/images/educare.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 				<!--Social Links-->
 				<div class="social-links">
