@@ -48,7 +48,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=601e75803d01430011c105c8&product=image-share-buttons" async="async"></script>
 </head>
 
 <body>
@@ -127,7 +126,7 @@
     </div>
 
     <!-- Page Title -->
-    <section class="page-title" style="background-image: url(assets/images/background/bg-20.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/background/edubg3.jpg);">
         <!--<div class="background-text">
             <div data-parallax='{"x": 100}'>
                 <div class="text-1">transida</div>
@@ -138,7 +137,7 @@
             <div class="content-box">
                 <div class="content-wrapper">
                     <div class="title">
-                        <h1></h1>
+                        <h1>News and Event</h1>
                     </div>
                     <ul class="bread-crumb clearfix">
                         <li><a href="index.php">Home</a></li>
@@ -200,7 +199,7 @@
                     </ul> -->
                 </div>
 
-                <aside class="col-lg-4 sidebar">
+                <aside class="col-lg-12 sidebar">
                     <div class="blog-sidebar style-two">
                     
                         <div class="widget widget_categories">
@@ -235,20 +234,7 @@
                             </div>
                         </div>
                         <!-- Tag-cloud Widget -->
-                        <div class="widget tag-cloud-widget">
-                            <h4 class="widget_title">Tag Cloud</h4>
-                            <ul class="clearfix">
-                                <li><a href="#">Cargo</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Ground</a></li>
-                                <li><a href="#">Management</a></li>
-                                <li><a href="#">Ocean</a></li>
-                                <li><a href="#">Offers</a></li>
-                                <li><a href="#">Safety</a></li>
-                                <li><a href="#">Shipment</a></li>
-                                <li><a href="#">Transportation</a></li>
-                                <li><a href="#">Warehouse</a></li>
-                            </ul>
+                      
                      
                     </div>
                 </aside>
