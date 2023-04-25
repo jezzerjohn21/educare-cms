@@ -50,9 +50,7 @@
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=601e75803d01430011c105c8&product=image-share-buttons" async="async"></script>
+
 </head>
 
 <body>
@@ -116,7 +114,7 @@
         <div class="popup-inner">
             <div class="overlay-layer"></div>
             <div class="search-form">
-                <form method="post" action="http://st.ourhtmldemo.com/new/Transida2/index.php">
+                <form method="post" action="index.php">
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
@@ -129,7 +127,7 @@
     </div>
 
     <!-- Page Title -->
-    <section class="page-title" style="background-image: url(assets/images/background/bg-20.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/background/edubg7.jpg);">
         <!--<div class="background-text">
             <div data-parallax='{"x": 100}'>
                 <div class="text-1">transida</div>

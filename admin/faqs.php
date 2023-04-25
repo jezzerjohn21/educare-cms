@@ -103,9 +103,10 @@ echo "<script>alert('Updated Successfully');</script>
             </div>
             <div class="card-header">
              <div class="form-group">
-                  <label>Enter Desc..</label>
+                  <p>Enter Desc..</label>
                  
-                <textarea name="descc" class="form-control" placeholder="Enter ..." onfocus="clearContents(this);"><?php echo $roww["descc"]; ?></textarea>
+     
+                  <textarea name="descc" class="form-control" placeholder="Enter ..."><?php echo $roww["descc"]; ?></textarea>
                 </div>
             </div>
 			<button type="submit" name="add" class="btn btn-block btn-primary btn-lg">Add</button>
