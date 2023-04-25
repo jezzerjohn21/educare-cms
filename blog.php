@@ -153,14 +153,13 @@
     <section class="news-section">
         <div class="auto-container">
             <div class="row">
-                <div class="col-lg-8">
 
                     <?php   
                         while ($row=mysqli_fetch_array($blog)){
                        
                     ?>
-                    <div class="news-block-four">
-                        <div class="inner-box">
+                   <div class="news-block-one col-lg-4 col-md-6">
+                    <div class="inner-box">
                             <div class="image">
                                 <img src="admin/images/blog/<?php echo $row['img']; ?>" alt="">
                                 <div class="date"><?php echo $row['date']; ?></div>
@@ -190,7 +189,8 @@
                     <?php  } ?>
 
 
-                  <!--  <ul class="pagination">
+
+                   <!-- <ul class="pagination">
                         <li><a href="#"><i class="flaticon-right-arrow-6"></i></a></li>
                         <li><a href="#" class="active">01</a></li>
                         <li><a href="#">02</a></li>
