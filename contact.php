@@ -167,12 +167,12 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="sec-title">
-                                <div class="sub-title">Get a Quote</div>
-                                <h2>Start Your Shipping</h2>
+                                <div class="sub-title">Contact us</div>
+                                <h2>Enroll your child</h2>
                             </div>
                             <!--<div class="text">Indignation and dislike men who are so beguiled & demoralized by <br> the charms of pleasure of the moment.</div>
                             <div class="link">-->
-                                <a href="#cform" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Get A Quote</span></a>
+                                <a href="#cform" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>click</span></a>
                             </div>
                         </div>
                     </div>
