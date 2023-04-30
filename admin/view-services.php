@@ -34,7 +34,7 @@ $a=4;
   <?php include"sidebar.php"; ?>
 
 <?php
-$_GET['delete_id'];
+
 if(isset($_GET['delete_id']))
 {
  $query_delete="DELETE FROM services WHERE id='".$_GET['delete_id']."'";

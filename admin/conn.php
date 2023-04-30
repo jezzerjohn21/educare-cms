@@ -6,7 +6,7 @@ $host = "localhost";
 
 $user = "root";
 
-$password = "";
+$password = "password";
 
 $dbname = "php-cms";
 

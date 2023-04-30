@@ -6,7 +6,7 @@
   
     
     //fetch services
-    $services = mysqli_query($con,"SELECT * FROM services ORDER BY id DESC");
+    $services = mysqli_query($con,"SELECT * FROM services ORDER BY id ASC LIMIT 10");
     
      //fetch settings
     $settings = mysqli_query($con,"SELECT * FROM settings");
@@ -108,7 +108,7 @@
     </div>
 
     <!-- Page Title -->
-    <section class="page-title" style="background-image: url(assets/images/background/edubg5.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/background/edubg.jpg);">
         <div class="background-text">
             <div data-parallax='{"x": 100}'>
                
@@ -133,8 +133,8 @@
          <section class="services-section style-two ">
         <div class="auto-container">
             <div class="sec-title text-center">
-                <div class="sub-title">Main Services</div>
-                <h2>Moving Your Products Across <br> All Borders</h2>
+                <div class="sub-title">School Offers</div>
+                <h2>Welcome to Educare <br> A Place for Your Child's Bright Future</h2>
             </div>
    
         </div>
@@ -142,8 +142,9 @@
     <div class="container pb-5">
         <div class="row">
             <div class="col-md-12 text-center">
-                <p><b>we are one stop company to fulfill your sourcing of all your required products from China USA India Canada & UAE.</b></p>
-                <p>We give complete A to Z solution starting from product sourcing shipping delivery at your doorstep.   We specialize in all kinds of export import items from USA  CHINA INDIA CANADA UAE &  WORLDWIDE.</p>
+                <p><b>We are pleased to welcome you at Educare where we provide excellent education. Through play-based and interactive activities, our Kindergarten curriculum places a strong emphasis on laying a solid foundation for young learners.  Our elementary curriculum helps get students ready for future academic achievement. Through innovative teaching methods, Educare establishes a safe and inclusive learning atmosphere for all students.</b></p>
+                <p>For students who want to hone their English language abilities, we also provide English Tutorial services. Our knowledgeable tutors train each student that is responsive to their needs..</p>
+           <p><b>Join us and watch how your child thrives at Educare!<b></p>
             </div>
         </div>
     </div>
@@ -191,68 +192,7 @@
     <!-- boostrap ends -->
 
 
-    <!-- services php -->
-
-        <section class="services-section style-two">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <div class="sub-title">Main Services</div>
-                <h2>Moving Your Products Across <br> All Borders</h2>
-            </div>
-            <div class="row">
-                <div class="theme_carousel owl-theme owl-carousel">
-
-                    <?php
-                        while($row=mysqli_fetch_array($services)){
-                    ?>
-                    <div class="col-lg-12 service-block">
-                        <div class="inner-box">
-                            <div class="">
-                                <img src="assets/images/resource/image-12.jpg" alt="">
-                                <div class="content">
-                                    <div>
-                                       
-                                        <h4><?php echo $row['title']; ?></h4>
-                                    </div>            
-                                </div>
-                            </div>
-                           
-                            <div class="overlay" style="background-image: url(assets/images/resource/image-12-2.jpg);">
-                                <div>
-                                    <div class="content">
-                                        <div class="icon"><span class="flaticon-airplane"></span></div>
-                                        <h4><?php echo $row['title']; ?></h4>
-                                    </div>
-                                    <div class="text"><?php echo $row['short']; ?></div>
-                                    <div class="link"><a href="#" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-              
-                  <?php  } ?>
-                </div>
-            </div>
-            <div class="cta-section-two">
-                <div class="wrapper-box">
-                    <div class="icon"><img src="assets/images/resource/image-29.jpg" alt=""></div>
-                    <div class="text">
-                        <h4>Our Effective and Affordable Pricing Plans</h4>
-                        <p>we assure you a super affordable price with word class services.</p>
-                    </div>
-                    <div class="link">
-                        <a href="contact.php" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Enquire Now</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-        <!-- services php ends -->
-
-  
-
-   
+ 
 
 
     <!--Main Footer-->

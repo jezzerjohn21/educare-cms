@@ -14,7 +14,7 @@
 
 
      //fetch services
-    $services = mysqli_query($con,"SELECT * FROM services ORDER BY id DESC LIMIT 3");
+     $services = mysqli_query($con,"SELECT * FROM services ORDER BY id ASC LIMIT 3");
 
 ?>
 
@@ -253,16 +253,16 @@
 }
 </style>
     
-      <div class="container pb-5">
+<div class="container pb-5">
           <div class="row ">
               <?php
                         while($row=mysqli_fetch_array($services)){
-                    ?>  
-              <div class="col-md-4 zoom">
+                    ?>
+              <div class="col-md-4 zoom pb-5">
                    
                     <div class="card-deck">
                         <div class="card">
-                            <img class="card-img-top" style="height:250px;" src="admin/images/services/<?php echo $row['img']; ?>" alt="Card image cap">
+                            <img class="card-img-top" style="height:270px;" src="admin/images/services/<?php echo $row['img']; ?>" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title"><b><a href="single-service.php?id=<?php echo $row['id']; ?>"><?php echo $row['title']; ?></a></b></h5>
                               <p class="card-text"><?php echo $row['short']; ?></p>
@@ -278,7 +278,7 @@
               <?php  } ?>
           </div>
       </div>
-    ako jezzer
+
     
 
 
@@ -296,34 +296,42 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
-                                <div class="icon"><span class="flaticon-up-arrow"></span></div>
+                                <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 512 512" fill="currentColor" id="IconChangeColor"><title>ionicons-v5-q</title><polygon points="256 370.43 96 279 96 377.42 256 466.3 416 377.42 416 279 256 370.43"></polygon><polygon points="512.25 192 256 45.57 -0.25 192 256 338.43 464 219.57 464 384 512 384 512 192.14 512.25 192"></polygon></svg></div>
                                 <div class="content">
-                                    <span><h4>lorem ipsum</h4></span>
+                                    <span><h4>Learning</h4></span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
-                                <div class="icon"><span class="flaticon-up-arrow"></span></div>
+                                <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16"> <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/> <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/> </svg>
+                                </div>
                                 <div class="content">
-                                    <span><h4>lorem ipsum</h4></span>
+                                    <span><h4>Achievement</h4></span>
                                     
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="icon-box wow fadeInUp" data-wow-duration="1700ms">
-                                <div class="icon"><span class="flaticon-up-arrow"></span></div>
+                            <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
+                                <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/> </svg>
+                                </div>
                                 <div class="content">
-                                    <span><h4>lorem ipsum</h4></span>
+                                    <span><h4>Success</h4></span>
+                                    
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="icon-box wow fadeInUp" data-wow-duration="1900ms">
-                                <div class="icon"><span class="flaticon-up-arrow"></span></div>
+                            <div class="icon-box wow fadeInUp" data-wow-duration="1500ms">
+                                <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" height="50" width="50"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M285.6 444.1C279.8 458.3 264.8 466.3 249.8 463.4C234.8 460.4 223.1 447.3 223.1 432V256H47.1C32.71 256 19.55 245.2 16.6 230.2C13.65 215.2 21.73 200.2 35.88 194.4L387.9 50.38C399.8 45.5 413.5 48.26 422.6 57.37C431.7 66.49 434.5 80.19 429.6 92.12L285.6 444.1z" id="mainIconPathAttribute"></path></svg>
+                                </div>
                                 <div class="content">
-                                    <span><h4>lorem ipsum</h4></span>
+                                    <span><h4>Discovery</h4></span>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -341,14 +349,14 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <div class="sub-title text-center">Why Choose Us</div>
-                <h2>Jums tabangi ko diri to <br>hehhe</h2>
+                <h2>Experience the Best<br>4 Compelling Reasons to Choose Educare</h2>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 why-choose-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="count">01</span><i class="flaticon-star"></i></div>
                         <div class="content">
-                            <h4>lorem ipsum</h4>
+                            <h4>Nurturing Environment</h4>
                             
                         </div>
                     </div>
@@ -357,7 +365,7 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="count">02</span><i class="flaticon-star"></i></div>
                         <div class="content">
-                            <h4>lorem ipsum</h4>
+                            <h4>Safe and Secure Campus</h4>
                             
                         </div>
                     </div>
@@ -366,7 +374,7 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="count">03</span><i class="flaticon-star"></i></div>
                         <div class="content">
-                            <h4>lorem ipsum</h4>
+                            <h4>Excellent Education</h4>
                             
                         </div>
                     </div>
@@ -375,7 +383,7 @@
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="count">04</span><i class="flaticon-star"></i></div>
                         <div class="content">
-                            <h4>lorem ipsum </h4>
+                            <h4>Well-trained Teachers</h4>
                            
                         </div>
                     </div>
@@ -410,6 +418,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-lg-4 col-md-6 pricing-block style-two">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" style="background-image: url(assets/images/resource/edu5.jpg);">
                         <div class="category-wrapper"><div class="category">Elementary</div></div>
@@ -487,7 +496,7 @@
     </section>
 
     <!-- News Section -->
-    <!--<section class="news-section">
+    <!-- <section class="news-section">
         <div class="auto-container">
             <div class="sec-top row m-0 justify-content-md-between align-items-center">
                 <div class="sec-title">
