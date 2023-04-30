@@ -1,5 +1,6 @@
 <?php
     include "admin/conn.php";
+ 
 
     //fetch settings
     $settings = mysqli_query($con,"SELECT * FROM settings");
@@ -17,6 +18,8 @@
      $services = mysqli_query($con,"SELECT * FROM services ORDER BY id ASC LIMIT 3");
 
 ?>
+
+<?php include "visitors_counter.php"; ?>
 
 
 <!DOCTYPE html>
@@ -60,6 +63,10 @@
     </div>
 
    <?php include "header.php"; ?>
+   <div class="ticket">
+    <span class="count">Visitors count: <?php echo $visitor_count; ?><img src="gear.gif" style="width: 40px;"></span>
+</div>
+
 
     <!-- Hidden Sidebar -->
     <section class="hidden-sidebar close-sidebar">
@@ -128,7 +135,7 @@
 
     <!-- Bnner Section -->
     <section class="banner-section">
-        <!--<div class="left-panel">
+        <!-- <div class="left-panel">
             <div class="side-menu-nav sidemenu-nav-toggler"><span class="flaticon-interface"></span>More</div>
             <div class="option-box">
                 <div class="icon"><span class="flaticon-tracking"></span></div>
@@ -167,7 +174,7 @@
                     <h4>Get A <br>Quote</h4>
                 </a>
             </div>
-        </div>-->
+        </div> -->
         <div class="background-text">
                          
         </div>
@@ -397,14 +404,14 @@
     <section class="pricing-section">
         <div class="auto-container">
             <div class="sec-title text-center">
-                <div class="sub-title text-center">Monthly rate</div>
-                <h2>loren ipsum <br>loren ipsum</h2>
+                <div class="sub-title text-center">Our pricing</div>
+                <h2>Empowering education with affordable fees. Invest in your child's future today!</h2>
             </div>
             <div class="row m-0">
                 <div class="col-lg-4 col-md-6 pricing-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="category-wrapper"><div class="category">KinderGarten</div></div>
-                        <div class="price">₱1700.00</div>
+                        <div class="price">₱1500.00</div>
                         <div class="time">Per Month</div>
                         <ul class="content">
                             <li>loren ipsum</li>
@@ -422,7 +429,7 @@
                 <div class="col-lg-4 col-md-6 pricing-block style-two">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms" style="background-image: url(assets/images/resource/edu5.jpg);">
                         <div class="category-wrapper"><div class="category">Elementary</div></div>
-                        <div class="price">₱2700.00</div>
+                        <div class="price">₱2500.00</div>
                         <div class="time">Per Month</div>
                         <ul class="content">
                             <li>loren ipsum</li>
@@ -439,8 +446,8 @@
                 <div class="col-lg-4 col-md-6 pricing-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="category-wrapper"><div class="category">English Tutorial</div></div>
-                        <div class="price">₱500.00</div>
-                        <div class="time">Per Session</div>
+                        <div class="price">₱300.00</div>
+                        <div class="time">Per hour</div>
                         <ul class="content">
                         <li>loren ipsum</li>
                             <li>loren ipsum</li>

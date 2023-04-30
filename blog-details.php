@@ -158,12 +158,12 @@
                             <div class="image mb-5"><img src="admin/images/blog/<?php echo $fetch['img'];  ?>" alt=""></div>
                             <div class="lower-content">
                                 <div class="top-content">
-                                    <div class="date"><?php echo $fetch['date'];  ?></div>
+                                    <div class="date" style="height: auto;"><?php echo $fetch['date'];  ?></div>
                                     <div class="category"><i class="fas fa-folder"></i><?php echo $fetch['category'];  ?></div>
                                     <h3><?php echo $fetch['title'];  ?></h3>
-                                </div>                                
+                                </div>                                <br><br>
                                 <ul class="post-meta pb-2">
-                                    <li><a href="#"><i class="far fa-user"></i>By: Admin</a></li>
+                                    <li><a href="#"><i class="far fa-user"></i>@educareschoolhoouse</a></li>
                                   
                                 </ul>
                                 
@@ -267,21 +267,7 @@
                             </div>
                         </div>
                         <!-- Tag-cloud Widget -->
-                        <div class="widget tag-cloud-widget">
-                            <h4 class="widget_title">Tag Cloud</h4>
-                            <ul class="clearfix">
-                                <li><a href="#">Cargo</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Ground</a></li>
-                                <li><a href="#">Management</a></li>
-                                <li><a href="#">Ocean</a></li>
-                                <li><a href="#">Offers</a></li>
-                                <li><a href="#">Safety</a></li>
-                                <li><a href="#">Shipment</a></li>
-                                <li><a href="#">Transportation</a></li>
-                                <li><a href="#">Warehouse</a></li>
-                            </ul>
-                        </div>
+                   
                         <!-- Advertisement Widget -->
                    
                     </div>

@@ -9,6 +9,7 @@
     $settings = mysqli_query($con,"SELECT * FROM settings");
     $setting  = mysqli_fetch_array($settings);
 ?>
+<?php include "visitors_counter.php"; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -45,6 +46,9 @@
 
     <!-- Main Header -->
     <?php include "header.php"; ?>
+    <div class="ticket">
+    <span class="count">Visitors count: <?php echo $visitor_count; ?><img src="gear.gif" style="width: 40px;"></span>
+</div>
         <!--End Header Upper-->
 
 
