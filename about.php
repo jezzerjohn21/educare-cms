@@ -54,7 +54,7 @@
                 <div class="hidden-sidebar-close"><span class="flaticon-remove"></span></div>
                 <div class="text-widget sidebar-widget">
                     <div class="logo"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></div>
-                    <div class="text">Demoralized by the charms of pleasure of the moment so blinded by desire that they cannot foresees the pain.</div>
+                    <div class="text">jezzer</div>
                 </div>
                 <!-- PDF Widget -->
                 <div class="pdf-widget sidebar-widget">
@@ -76,28 +76,13 @@
                 <!-- Contact Widget -->
            
                 <!-- Link Btn -->
-                <div class="link-btn"><a href="#" class="theme-btn btn-style-one style-two"><span><i class="flaticon-up-arrow"></i>Purchase Our Theme </span></a></div>
+                <div class="link-btn"><a href="#" class="theme-btn btn-style-one style-two"><span><i class="flaticon-up-arrow"></i></span></a></div>
             </div>
         </div>
     </section>
     
     <!--Search Popup-->
-    <div id="search-popup" class="search-popup">
-        <div class="close-search theme-btn"><span class="flaticon-remove"></span></div>
-        <div class="popup-inner">
-            <div class="overlay-layer"></div>
-            <div class="search-form">
-                <form method="post" action="http://st.ourhtmldemo.com/new/Transida2/index.php">
-                    <div class="form-group">
-                        <fieldset>
-                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
-                            <input type="submit" value="Search Now!" class="theme-btn">
-                        </fieldset>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+ 
 
     <!-- Page Title -->
     <section class="page-title" style="background-image: url(assets/images/background/edubg.jpg);">
@@ -153,18 +138,28 @@
         <div class="overview">
             <div class="auto-container">
                 <div class="wrapper-box">
-                    <h2>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</h2>
+                    <h2>“Sending my child to this school was the best decision I ever made. The educators genuinely care about their students and go above and beyond to support their success.” - Krisha Along, Parent</h2>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="text">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            </div>
+                    <p>At Educare, we believe that every child deserves an excellent education that will prepare them for future success. Our knowledgeable and committed teachers create a supportive environment where children can succeed academically and socially.</p>
+                    <p>Our kindergarten curriculum aims to provide young students with a solid foundation in arithmetic, reading, and writing that will last them for years by providing hands-on activities, play-based learning, and exploration. Our well-trained teachers can provide each student individualized attention, enabling them to achieve their greatest potential.</p>
+                    <p>Our curriculum keeps students engaged and challenged as they advance through our elementary school in fresh and engaging ways. We provide an academic curriculum that gets children ready for middle school and beyond. To help students in understanding and putting new ideas into practice, our teachers employ a range of teaching strategies and resources. </p>
+                    <p>However, education is not just about academics. At Educare, we also place a high priority on social and emotional development. We instill in our children the value of being polite, considerate, and civically engaged members of society. We support children in developing crucial life skills like empathy, teamwork, and problem-solving through our character education program.</p>    
+                    <p>Don't just take our word for it; listen to what some of our grateful parents have to say:</p>      
+                    
+                    <p><i>“Sending my child to this school was the best decision I ever made.
+                         The educators genuinely care about their students and go above and beyond to support their success.”</i> - Krisha Along, Parent</p>
+
+                    <p><i>“My daughter has attended this school since kindergarten. Now, she has grown 
+                        into a confident and enthusiastic learner. I am grateful that my daughter is part of this school community.”</i> - Joanne Lopez, Parent</p>
+
+                    </div>
                             <div class="author-info wow fadeInUp" data-wow-duration="1500ms">
-                                <!-- <div class="video-btn">
-                                    <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="overlay-link lightbox-image video-fancybox"><i class="flaticon-play-arrow"></i></a>
-                                </div> -->
+                                <div class="video-btn">
+                                    <a href="" class="overlay-link lightbox-image video-fancybox"><i class="flaticon-play-arrow"></i></a>
+                                    <!-- https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s -->
+                                </div>
                                 <!-- <div class="signature"><img src="assets/images/sign.PNG" alt=""></div> -->
                                 <div>
                                     <div class="author-title">John doe</div>
@@ -295,14 +290,18 @@
                         <div class="tab-content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                             <div class="tab-pane fadeInUp animated active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
                                 <div class="text-block">
-                                    <div class="sec-title mb-30">
+                                    <div class="sec-title mb-50">
                                         <div class="sub-title">Statements</div>
                                         <h2>Mission Statement</h2>
                                     </div>
-                                    <div class="text"><ul>
-                                        <li>lorem ipsum.</li>
-                                        <li>lorem ipsum.</li>
-                                        <li>lorem ipsum.</li>
+                                    <div class="text"><ol>
+                                        <li>To provide a developmentally appropriate curriculum</li>
+                                        <br>
+                                        <li>To provide a safe, caring enivironment that promotes healthy and gracious interpersonal experiences which are equally important to academic skill</li>
+                                        <br>
+                                        <li>To provide knowlegdeable, well-trained committed staff and educators; and</li>
+                                        <br>
+                                        <li>To involve parents and families as active partners.</li>
                                     </ul></div>
                                 </div>
                             </div>
@@ -312,7 +311,7 @@
                                         <div class="sub-title">Statements</div>
                                         <h2>Vision Statement</h2>
                                     </div>
-                                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                                    <div class="text">Educare Schoolhouse envisions to help build a just and humane society dedicated to the early development of the child’s positive self-concept, love for learning, respect and compassion.</div>
                                 </div>
                             </div>
                             <div class="tab-pane fadeInUp animated" id="tab-three" role="tabpanel" aria-labelledby="tab-three">

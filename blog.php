@@ -126,7 +126,7 @@
     </div>
 
     <!-- Page Title -->
-    <section class="page-title" style="background-image: url(assets/images/background/edubg3.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/background/edubg.jpg);">
         <!--<div class="background-text">
             <div data-parallax='{"x": 100}'>
                 <div class="text-1">transida</div>

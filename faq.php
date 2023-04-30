@@ -99,7 +99,7 @@
     </div>
 
     <!-- Page Title -->
-    <section class="page-title" style="background-image: url(assets/images/background/edubg6.jpg);">
+    <section class="page-title" style="background-image: url(assets/images/background/edubg.jpg);">
    
         <div class="auto-container">
             <div class="content-box">
