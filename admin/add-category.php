@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+error_reporting(1);
 include 'conn.php';
 include 'auth.php';
 
@@ -45,7 +45,11 @@ if(isset($_GET['delete_id']))
 
 $edit = $_GET['edit'];
 
- $resultt = mysqli_query($con,"SELECT * FROM category where id=".$edit."");
+$stmt = mysqli_prepare($con, "SELECT * FROM category WHERE id = ?");
+mysqli_stmt_bind_param($stmt, "i", $edit);
+mysqli_stmt_execute($stmt);
+$resultt = mysqli_stmt_get_result($stmt);
+
  $roww = mysqli_fetch_array($resultt);
 $location = mysqli_query($con,"SELECT * FROM category");
 

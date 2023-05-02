@@ -1,6 +1,6 @@
 <?php
 
-error_reporting(0);
+error_reporting(1);
 include 'conn.php';
 include 'auth.php';
 
@@ -39,7 +39,11 @@ date_default_timezone_set('Asia/Kolkata');
 $today = date("D d M Y");
 $edit = $_GET['edit'];
 
- $resultt = mysqli_query($con,"SELECT * FROM services where id=".$edit."");
+$stmt = mysqli_prepare($con, "SELECT * FROM services WHERE id = ?");
+mysqli_stmt_bind_param($stmt, "i", $edit);
+mysqli_stmt_execute($stmt);
+$resultt = mysqli_stmt_get_result($stmt);
+
  $roww = mysqli_fetch_array($resultt);
 
 if(isset($_POST['publise'])){
@@ -134,7 +138,7 @@ echo "<script>alert('Updated Successfully');</script>
 			<div class="form-group">
                     <label for="exampleInputFile">Select Img<span style="color:red;">(only compresed)</span></label>
 					<p style="color:red;">img size 800px x 500px</p>
-                        <input name="lis_img" type="file" required>
+                        <input name="lis_img" type="file" >
                      <?php echo $roww["img"]; ?>
                   </div>
 			</div>

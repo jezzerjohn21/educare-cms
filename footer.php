@@ -35,7 +35,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="widget contact-widget style-two">
-                            <h4>Do You Have Any Question? lorem<br> ipsum</h4>
+                            <h4>Do You Have Any Question?<br>Contact us</h4>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="wrapper-box">
@@ -72,7 +72,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="widget links-widget">
-                                    <h4 class="widget_title">Useful Links</h4>
+                                    <h4 class="widget_title">Our Links</h4>
                                     <div class="widget-content">
                                         <ul class="list">
                                             <li><a href="about.php">About Educare Schoolhouse</a></li>

@@ -1,7 +1,7 @@
 <?php
 include('conn.php');
 session_start();
-
+error_reporting(0);
 
 
 if(isset($_POST['submit'])){
@@ -27,7 +27,7 @@ if(isset($_POST['submit'])){
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="robots" content="noindex" />
-  <title>AdminLTE 3 | Log in</title>
+  <title>Educare Admin | Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -45,12 +45,13 @@ if(isset($_POST['submit'])){
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="/"><b>Admin</b>Login</a>
+  <img src="images/assets/educare.png" alt="Logo" width="300" height="150">
   </div>
+
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in to start your session</p>
+      <p class="login-box-msg">Login</p>
 
       <form method="post">
         <div class="input-group mb-3">

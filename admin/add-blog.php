@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+error_reporting(1);
 include 'conn.php';
 include 'auth.php';
 
@@ -38,7 +38,10 @@ date_default_timezone_set('Asia/Kolkata');
 $today = date("D d M Y");
 $edit = $_GET['edit'];
 
- $resultt = mysqli_query($con,"SELECT * FROM blog where id=".$edit."");
+$stmt = mysqli_prepare($con, "SELECT * FROM blog WHERE id = ?");
+mysqli_stmt_bind_param($stmt, "i", $edit);
+mysqli_stmt_execute($stmt);
+$resultt = mysqli_stmt_get_result($stmt);
  $roww = mysqli_fetch_array($resultt);
 
 if(isset($_POST['publise'])){
@@ -66,7 +69,12 @@ $file_extension = strtolower($file_extension);
 // Check extension
 if(in_array($file_extension,$valid_ext)){
 // Compress Image
-compressImage($tempname,$folder,60);
+if (isset($tempname) && !empty($tempname) && isset($folder) && !empty($folder)) {
+  compressImage($tempname, $folder, 60);
+} else {
+  // handle the error
+}
+
 }
 if($edit==''){
 $insertdata = mysqli_query($con,"INSERT INTO blog(title,category,descrip,img,url,date,status)VALUES('$title','$category','$descrip','$lis_img','$url','$today','0')");
@@ -156,7 +164,7 @@ function compressImage($source, $destination, $quality) {
 			<div class="form-group">
                     <label for="exampleInputFile">Select Img<span style="color:red;">(only compresed)</span></label>
 					<p style="color:red;">img size 800px x 800px</p>
-                        <input name="lis_img" type="file" required>
+                        <input name="lis_img" type="file">
                      <?php echo $roww["img"]; ?>
                   </div>
                 

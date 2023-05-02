@@ -23,6 +23,8 @@
 
 ?>
 
+<?php include "visitors_counter.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,6 +60,10 @@
 
     <!-- Main Header -->
    <?php include "header.php"; ?>
+
+   <div class="ticket">
+    <span class="count">Visitors count: <?php echo $visitor_count; ?><img src="gear.gif" style="width: 40px;"></span>
+</div>
     <!-- End Main Header -->
 
     <!-- Hidden Sidebar -->
@@ -67,7 +73,7 @@
                 <div class="hidden-sidebar-close"><span class="flaticon-remove"></span></div>
                 <div class="text-widget sidebar-widget">
                     <div class="logo"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></div>
-                    <div class="text">Demoralized by the charms of pleasure of the moment so blinded by desire that they cannot foresees the pain.</div>
+                    <div class="text"></div>
                 </div>
                 <!-- PDF Widget -->
                 <div class="pdf-widget sidebar-widget">
@@ -158,18 +164,18 @@
                         while ($row=mysqli_fetch_array($blog)){
                        
                     ?>
-                   <div class="news-block-one col-lg-4 col-md-6">
+                   <div class="news-block-one col-lg-4 col-md-7">
                     <div class="inner-box">
                             <div class="image">
                                 <img src="admin/images/blog/<?php echo $row['img']; ?>" alt="">
-                                <div class="date"><?php echo $row['date']; ?></div>
+                                <div class="date" style="height: auto;"><?php echo $row['date']; ?></div>
                                 <div class="overlay-two"><a href="assets/images/resource/news-27.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a></div>
                             </div>
                             <div class="lower-content">
                                 <div class="category"><i class="fas fa-folder"></i> <?php echo $row['category']; ?></div>
                                 <h3><a href="blog-details.php?id=<?php echo $row['id']; ?>"><?php echo $row['title']; ?></a></h3>
                                 <ul class="post-meta">
-                                    <li><a href="#"><i class="far fa-user"></i>By: Admin</a></li>
+                                    <li><a href="#"><i class="far fa-user"></i>@EduCare Schoolhouse</a></li>
                                    
                                 </ul>
                                 <div class="text"><p><?php 
@@ -224,7 +230,7 @@
                                 <?php
                                     while($row=mysqli_fetch_array($recent)){
                                 ?>
-                                <div class="post" style="background-image: url(assets/images/resource/news-26.jpg);">
+                                <div class="post" style="background-image: url(assets/images/resource/recent.jpg);">
                                     <div class="content">
                                         <div class="date"><i class="far fa-calendar"></i> <?php echo $row['date']; ?></div>
                                         <h4><a href="blog-details.php?id=<?php echo $row['id']; ?>"><?php echo $row['title']; ?></a></h4>

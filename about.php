@@ -5,6 +5,7 @@
     $settings = mysqli_query($con,"SELECT * FROM settings");
     $setting  = mysqli_fetch_array($settings);
 ?>
+<?php include "visitors_counter.php"; ?>
 
 
 <!DOCTYPE html>
@@ -46,6 +47,9 @@
   
     <!-- End Main Header -->
 <?php include "header.php"; ?>
+<div class="ticket">
+    <span class="count">Visitors count: <?php echo $visitor_count; ?><img src="gear.gif" style="width: 40px;"></span>
+</div>
     <!-- Hidden Sidebar -->
 
     <section class="hidden-sidebar close-sidebar">
@@ -229,6 +233,116 @@
                 </div>
             </div>
         </div> 
+    </section>
+
+       <!-- Team Section -->
+       <section class="team-section style-three">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/team-1.png" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Founder</div>
+                            <h4>Todd Macomber</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">Founder</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/team-1.png" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Director</div>
+                            <h4>Noel Howard</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">Director</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/team-1.png" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Staff</div>
+                            <h4>William Villalon</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">Staff</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/team-1.png" alt=""></div>
+                        <div class="content">
+                            <div class="designation">teacher</div>
+                            <h4>Jack Edwards</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">Teacher</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/team-1.png" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Teacher</div>
+                            <h4>Richard Palmieri</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">Teacher</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="assets/images/resource/team-1.png" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Teacher</div>
+                            <h4>Randy Brigs</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">Teacher</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
     </section>
 
      <!-- Whychooseus section four -->
