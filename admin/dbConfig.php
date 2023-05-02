@@ -1,9 +1,9 @@
 <?php
 // Database configuration
 $dbHost     = "localhost";
-$dbUsername = "actwebsp_39";
-$dbPassword = "Hello@123";
-$dbName     = "actwebsp_39";
+$dbUsername = "root";
+$dbPassword = "password";
+$dbName     = "php-cms";
 
 // Create database connection
 $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);

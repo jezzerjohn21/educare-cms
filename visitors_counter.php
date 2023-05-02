@@ -28,7 +28,7 @@ save_visitor_count($visitor_count);
     background-color: #ffcc00;
     color: #000000;
     padding: 10px;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;

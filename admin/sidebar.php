@@ -56,22 +56,7 @@
             </a>
           </li> 
 
-          <li class="nav-item has-treeview menu-open">
-            <a href="add-about.php" class="nav-link <?php if($a==3){ echo 'active'; }?>">
-               <i class="fa fa-plus nav-icon"></i>
-              <p>
-               Add Service
-              </p>
-            </a>
-          </li> 
-          <li class="nav-item has-treeview menu-open">
-            <a href="view-services.php" class="nav-link <?php if($a==4){ echo 'active'; }?>">
-               <i class="fa fa-eye nav-icon"></i>
-              <p>
-                View Services
-              </p>
-            </a>
-          </li> 
+       
 
           
 		  
@@ -131,3 +116,4 @@
     </div>
     <!-- /.sidebar -->
   </aside>
+
